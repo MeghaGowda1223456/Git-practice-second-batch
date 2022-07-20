@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pradeep() {
   return (
-    <div>Pradeep</div>
+    <div>Pradeep T</div>
   )
 }
 
