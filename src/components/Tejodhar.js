@@ -8,7 +8,7 @@ const Tejodhar = () => {
     }
   return (
     <div>
-        <p>{fisrt}</p>
+        <p>{first}</p>
         <button onClick={fun}>click me</button>
     </div>
   )
