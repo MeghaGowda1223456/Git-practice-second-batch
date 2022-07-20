@@ -11,6 +11,7 @@ import Viddd from "./components/Viddd";
 import Mukesh from "./components/Mukesh";
 import Pradeep from "./components/Pradeep";
 import Hemant from './components/Hemant';
+import Jithin from "./components/Jithin";
 
 
  
@@ -30,7 +31,7 @@ function App() {
       <Tejodhar />
       <Suhas/>
       
-
+       <Jithin />
 
       <Mukesh />
       <Hemant/>
