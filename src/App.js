@@ -10,9 +10,10 @@ function App() {
   const [state, setState] = useState(true);
   return (
     <div className="App">
-      {/* <ComponentB/>
-      {state ? <DataComponents setState={setState} /> : <ComponentA />} */}
       <Viddd/>
+      <ComponentB/>
+      {state ? <DataComponents setState={setState} /> : <ComponentA />}
+      
 
 
     </div>
