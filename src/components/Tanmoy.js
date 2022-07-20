@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tanmoy() {
   return (
-    <div>Tanmoy</div>
+    <div>Tanmoy Sen</div>
   )
 }
 
