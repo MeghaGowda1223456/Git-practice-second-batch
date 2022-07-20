@@ -5,6 +5,7 @@ import { useState } from "react";
 import ComponentA from "./components/ComponentA";
 import ComponentB from "./components/ComponentB";
 import Tanmoy from "./components/Tanmoy";
+import Tejodhar from './components/Tejodhar';
 import Suhas from "./components/Suhas";
 import Viddd from "./components/Viddd";
 import Mukesh from "./components/Mukesh";
@@ -25,6 +26,8 @@ function App() {
       <Viddd/>
       <ComponentB/>
       {state ? <DataComponents setState={setState} /> : <ComponentA />}
+
+      <Tejodhar />
       <Suhas/>
       
 
