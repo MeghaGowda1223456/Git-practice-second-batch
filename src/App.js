@@ -9,6 +9,9 @@ import Pradeep from "./components/Pradeep";
 import Hemant from "./components/Hemant";
 
 
+import Mukesh from "./components/Mukesh";
+
+
 
 function App() {
   const [state, setState] = useState(true);
@@ -18,6 +21,7 @@ function App() {
       <Pradeep/>
       <ComponentB/>
       {state ? <DataComponents setState={setState} /> : <ComponentA />}
+      <Mukesh />
       <Hemant/>
     </div>
   );
